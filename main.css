@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+}
+
+h1{
+    max-width: 1080x;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 48px;
+    color: azure;
+}
+
+h5{
+    max-width: 1080x;
+    text-align: center;
+    margin: 0 auto;
+    color: azure;
+    padding-bottom: 32px;
+}
+
+h2{
+    font-size: 32px;
+    background-color: rgb(10, 10, 10);
+    padding: 12px 32px;
+    border-radius: 4px;
+    color: azure;
+    cursor: pointer;
+}
+
+h2:hover{
+    font-size: 32px;
+    background-color: rgb(20, 20, 20);
+    padding: 12px 32px;
+    border-radius: 4px;
+    color: azure;
+    cursor: pointer;
+}
+
+form{
+    display: block;
+    margin-top: 36px;
+}
+
+.subtitles{
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.container{
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#form-em-conta, #form-gastos{
+    display: none;
+}
+
+.label-input{
+    display: flex;
+    margin-bottom: 32px;
+    border-bottom: 2px solid azure;
+}
+
+label{
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    border-radius: 4px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+button{
+    display: flex;
+    max-width: 1080px;
+    padding: 4px 16px;
+    margin: 0 auto;
+    color: azure;
+    background-color: rgb(10, 10, 10);
+}
+
+button:hover{
+    display: flex;
+    max-width: 1080px;
+    padding: 4px 16px;
+    margin: 0 auto;
+    color: azure;
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.container-results{
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.results{
+    display: inline;
+    font-size: 24px;
+    background-color: rgb(10, 10, 10);
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: azure;
+    margin: 0 auto;
+    font-family: 'Nova Square', sans-serif;
+}

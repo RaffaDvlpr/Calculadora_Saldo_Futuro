@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor Restante</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Saldo Futuro</h1>
+        <h5>(Utilize apenas números)</h5>
+    </header>
+    <form>
+        <div class="container">
+            <div class="input">
+                <h2 id="titulo-em-conta" class="subtitles">Inserir saldo atual</h2>
+                <div id="form-em-conta">
+                    <div class="label-input">
+                        <label for="papel-moeda-1">Papel moeda (1)</label>
+                        <input type="text" class="em-conta" id="papel-moeda-1" />
+                    </div>
+                    <div class="label-input">
+                        <label for="papel-moeda-2">Papel moeda (2)</label>
+                        <input type="text" class="em-conta" id="papel-moeda-2" />
+                    </div>
+                    <div class="label-input">
+                        <label for="papel-moeda-3">Papel moeda (3)</label>
+                        <input type="text" class="em-conta" id="papel-moeda-3" />
+                    </div>
+                    <div class="label-input">
+                        <label for="banco-1">Banco (1)</label>
+                        <input type="text" class="em-conta" id="banco-1" />
+                    </div>
+                    <div class="label-input">
+                        <label for="banco-2">Banco (2)</label>
+                        <input type="text" class="em-conta" id="banco-2" />
+                    </div>
+                    <div class="label-input">
+                        <label for="banco-3">Banco (3)</label>
+                        <input type="text" class="em-conta" id="banco-3" />
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <h2 id="titulo-gastos" class="subtitles">Inserir gastos previstos</h2>
+                <div id="form-gastos">
+                    <div class="label-input">
+                        <label for="gastos-1">Gastos (1)</label>
+                        <input type="text" class="gastos" id="gastos-1" />
+                    </div>
+                    <div class="label-input">
+                        <label for="gastos-2">Gastos (2)</label>
+                        <input type="text" class="gastos" id="gastos-2" />
+                    </div>
+                    <div class="label-input">
+                        <label for="gastos-3">Gastos (3)</label>
+                        <input type="text" class="gastos" id="gastos-3" />
+                    </div>
+                    <div class="label-input">
+                        <label for="gastos-4">Gastos (4)</label>
+                        <input type="text" class="gastos" id="gastos-4" />
+                    </div>
+                    <div class="label-input">
+                        <label for="gastos-5">Gastos (5)</label>
+                        <input type="text" class="gastos" id="gastos-5" />
+                    </div>
+                    <div class="label-input">
+                        <label for="gastos-6">Gastos (6)</label>
+                        <input type="text" class="gastos" id="gastos-6" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Calcular</button>
+        <div style="display: none;" id="container-results" class="container-results">
+            <div class="results" id="emContaTotalDiv"></div>
+            <div class="results" id="gastosTotalDiv"></div>
+            <div class="results" id="restanteDiv"></div>
+        </div>
+    </form>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/js plug-ins/jquery.mask.min.js"></script>
+<script src="/js plug-ins/messages_pt_BR.min.js"></script>
+<script src="/main.js"></script>
+</html>
